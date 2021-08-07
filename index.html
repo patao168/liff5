@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+	<title>LIFF - LINE Front-end Framework</title>
+</head>
+<body>
+	<script src="https://static.line-scdn.net/liff/edge/versions/2.6.0/sdk.js"></script>
+	<script>
+	  async function main() {
+		  await liff.init({ liffId: "1656276898-vnPJKdYx" })
+		  await liff.shareTargetPicker([
+		   {
+		      type: "flex",
+			    altText: "Flex Message from Share Target Picker",
+			    contents: {
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://www.img.in.th/images/3ce4e4ef2ddb12297a7c7a000a690903.jpg",
+    "size": "full",
+    "aspectRatio": "16:9",
+    "aspectMode": "fit",
+    "action": {
+      "type": "uri",
+      "label": "Line",
+      "uri": "https://www.youtube.com/watch?v=ogfIdETORro"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "วันที่ 7 สิงหาคม 2564",
+        "weight": "bold",
+        "size": "xl",
+        "contents": []
+      },
+      {
+        "type": "text",
+        "text": "ซิยง -vs- ยัง บอยส์  ",
+        "contents": []
+      },
+      {
+        "type": "text",
+        "text": "ยัง บอยส์ -1.0",
+        "weight": "bold",
+        "color": "#FF0000FF",
+        "contents": []
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "flex": 0,
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "flex": 3,
+        "backgroundColor": "#FFFFFFFF",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "สมัครสมาชิก",
+              "uri": "https://bit.ly/3zwUjP8"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "ติดต่อป๋าส่วนตัว",
+              "uri": "https://lin.ee/ZPCGuZf"
+            }
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "flex": 3,
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "ดูVDOวิเคราะห์",
+              "uri": "https://www.youtube.com/watch?v=ogfIdETORro"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "แชร์",
+              "uri": "https://liff.line.me/1656276898-vnPJKdYx"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+		   }
+		])
+		liff.closewindow()
+	  }
+	  main()
+ 	</script>
+</body>
+</html>
