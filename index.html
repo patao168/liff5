@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+	<title>LIFF - LINE Front-end Framework</title>
+</head>
+<body>
+	<script src="https://static.line-scdn.net/liff/edge/versions/2.6.0/sdk.js"></script>
+	<script>
+	  async function main() {
+		  await liff.init({ liffId: "1656276898-qR8RXZ4x" })
+		  await liff.shareTargetPicker([
+		   {
+		      type: "flex",
+			    altText: "Flex Message from Share Target Picker",
+			    contents: {
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://sv1.picz.in.th/images/2021/08/08/2j5zX1.jpg",
+        "size": "full",
+        "aspectRatio": "16:9",
+        "aspectMode": "cover",
+        "backgroundColor": "#FFFFFF"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": " ฟูแล่ม -vs- มิดเดิ้ลสโบรช์",
+                "align": "center",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "ฟูแล่ม -0.5",
+                "weight": "bold",
+                "color": "#FF0000FF",
+                "align": "center",
+                "contents": []
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "flex": 1,
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "สมัครสมาชิก",
+                  "uri": "https://bit.ly/3zwUjP8"
+                }
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "แชร์",
+                  "uri": "https://liff.line.me/1656276898-qR8RXZ4x"
+                }
+              }
+            ]
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "ดูVDOวิเคราะห์",
+              "uri": "https://www.youtube.com/watch?v=wen6ib0KOtk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://www.img.in.th/images/889ba41b943f6394549094439d7f5447.jpg",
+        "size": "full",
+        "aspectRatio": "16:9",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "แซงต์ เอเตียน -vs- ลอริยองต์",
+                "flex": 0,
+                "align": "center",
+                "wrap": true,
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "ลอริยองต์ 0.25",
+                "weight": "bold",
+                "color": "#000000FF",
+                "align": "center",
+                "contents": []
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "สมัครสมาชิก",
+                  "uri": "https://bit.ly/3zwUjP8"
+                },
+                "style": "primary"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "ทักหาป๋าส่วนตัว",
+                  "uri": "https://bit.ly/2RdxH5X"
+                }
+              }
+            ]
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "ดูVDOวิเคราะห์",
+              "uri": "https://www.youtube.com/watch?v=Vf94BB53JSQ&t=185s"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "direction": "rtl",
+      "hero": {
+        "type": "image",
+        "url": "https://www.img.in.th/images/889ba41b943f6394549094439d7f5447.jpg",
+        "size": "full",
+        "aspectRatio": "16:9",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "นีซ -vs- แร็งส์",
+                "flex": 0,
+                "align": "center",
+                "wrap": true,
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "นีซ -0.5",
+                "weight": "bold",
+                "color": "#FF0000FF",
+                "align": "center",
+                "contents": []
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "ทักหาป๋าส่วนตัว",
+                  "uri": "https://bit.ly/2RdxH5X"
+                }
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "สมัครสมาชิก",
+                  "uri": "https://bit.ly/2RdxH5X"
+                },
+                "color": "#FF0808FF",
+                "style": "primary"
+              }
+            ]
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "ดูVDOวิเคราะห์",
+              "uri": "https://www.youtube.com/watch?v=Vf94BB53JSQ&t=185s"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+		   }
+		])
+		liff.closewindow()
+	  }
+	  main()
+ 	</script>
+</body>
+</html>
