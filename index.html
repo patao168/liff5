@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+	<title>LIFF - LINE Front-end Framework</title>
+</head>
+<body>
+	<script src="https://static.line-scdn.net/liff/edge/versions/2.6.0/sdk.js"></script>
+	<script>
+	  async function main() {
+		  await liff.init({ liffId: "1656276898-qR8RXZ4x" })
+		  await liff.shareTargetPicker([
+		   {
+		      type: "flex",
+			    altText: "Flex Message from Share Target Picker",
+			    contents: {
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_3:2,f_auto,q_auto,g_auto/shape/cover/sport/dataimagejpegbase649j4AAQSkZJRgABAQEBLAEsAAD4SDKRX-5dd8d5148f7a09d3405053f6e91356df.jpg",
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "1-1",
+            "weight": "bold",
+            "size": "3xl",
+            "color": "#FF0000FF",
+            "align": "center",
+            "wrap": true,
+            "contents": []
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "เชลซี -vs- บียาร์เรอัล",
+                "flex": 0,
+                "align": "center",
+                "wrap": true,
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "เชลซี -0.75",
+                "weight": "bold",
+                "color": "#FF0000FF",
+                "align": "center",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "เสียเต็ม",
+                "weight": "bold",
+                "size": "3xl",
+                "color": "#FF0000FF",
+                "align": "center",
+                "contents": []
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "สมัครสมาชิก",
+              "uri": "https://bit.ly/3zwUjP8"
+            },
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "ทักหาป๋าส่วนตัว",
+              "uri": "https://bit.ly/2RdxH5X"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://www.theleaguepaper.com/wp-content/uploads/2016/02/PSI_Northampton_Town_v_York_City_06Feb16_DG_094.jpg",
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "1-2",
+            "weight": "bold",
+            "size": "3xl",
+            "color": "#FF0000FF",
+            "align": "center",
+            "wrap": true,
+            "contents": []
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "โคเวนทรี่ -vs- นอร์ทแฮมป์ตัน",
+                "flex": 0,
+                "align": "center",
+                "wrap": true,
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "โคเวนทรี่ -0.75",
+                "weight": "bold",
+                "color": "#FF0000FF",
+                "align": "center",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "เสียเต็ม",
+                "weight": "bold",
+                "size": "3xl",
+                "color": "#FF0000FF",
+                "flex": 0,
+                "align": "center",
+                "margin": "md",
+                "wrap": true,
+                "contents": []
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "สมัครสมาชิก",
+              "uri": "https://bit.ly/2RdxH5X"
+            },
+            "color": "#FF0808FF",
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "ทักหาป๋าส่วนตัว",
+              "uri": "https://bit.ly/2RdxH5X"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://media.komchadluek.net/img/size1/2018/02/26/ejiehhkdd57ff5fg9bi68.jpg",
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover",
+        "backgroundColor": "#FFFFFF"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "1-1",
+            "weight": "bold",
+            "size": "3xl",
+            "color": "#FF0000FF",
+            "align": "center",
+            "contents": []
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "เบอร์ตัน -vs- อ็อกซ์ฟอร์ด ยูไนเต็ด",
+                "align": "center",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "เบอร์ตัน 0.25",
+                "weight": "bold",
+                "color": "#FF0000FF",
+                "align": "center",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "เสียครึ่ง",
+                "weight": "bold",
+                "size": "3xl",
+                "color": "#FF0000FF",
+                "align": "center",
+                "contents": []
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "flex": 1,
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "สมัครสมาชิก",
+              "uri": "https://bit.ly/3zwUjP8"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "แชร์",
+              "uri": "https://liff.line.me/1656276898-qR8RXZ4x"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+		   }
+		])
+		liff.closewindow()
+	  }
+	  main()
+ 	</script>
+</body>
+</html>
