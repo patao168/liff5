@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+	<title>LIFF - LINE Front-end Framework</title>
+</head>
+<body>
+	<script src="https://static.line-scdn.net/liff/edge/versions/2.6.0/sdk.js"></script>
+	<script>
+	  async function main() {
+		  await liff.init({ liffId: "1656276898-qR8RXZ4x" })
+		  await liff.shareTargetPicker([
+		   {
+		      type: "flex",
+			    altText: "Flex Message from Share Target Picker",
+			    contents: {
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://m.guardian.ng/wp-content/uploads/2021/08/Taiwo-Awoniyi-1536x864.jpg",
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "2-2",
+            "weight": "bold",
+            "size": "3xl",
+            "color": "#FF0000FF",
+            "align": "center",
+            "wrap": true,
+            "contents": []
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ฮอฟเฟ่นไฮม์ -vs- ยูนิโอน เบอร์ลิน ",
+                "flex": 0,
+                "align": "center",
+                "wrap": true,
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "ฮอฟเฟ่นไฮม์ -0.25",
+                "weight": "bold",
+                "color": "#FF0000FF",
+                "align": "center",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "เสียครึ่ง",
+                "weight": "bold",
+                "size": "3xl",
+                "color": "#FF0000FF",
+                "align": "center",
+                "contents": []
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "สมัครสมาชิก",
+              "uri": "https://bit.ly/3zwUjP8"
+            },
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "ทักหาป๋าส่วนตัว",
+              "uri": "https://bit.ly/2RdxH5X"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://as01.epimg.net/en/imagenes/2021/08/22/soccer/1629640047_304527_1629648516_noticia_normal.jpg",
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "0-2",
+            "weight": "bold",
+            "size": "3xl",
+            "color": "#FF0000FF",
+            "align": "center",
+            "wrap": true,
+            "contents": []
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "อาร์เซน่อล -vs- เชลซี ",
+                "flex": 0,
+                "align": "center",
+                "wrap": true,
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": " เชลซี  -0.5",
+                "weight": "bold",
+                "color": "#FF0000FF",
+                "align": "center",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "กินเต็ม",
+                "weight": "bold",
+                "size": "3xl",
+                "color": "#2EA521FF",
+                "flex": 0,
+                "align": "center",
+                "margin": "md",
+                "wrap": true,
+                "contents": []
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "สมัครสมาชิก",
+              "uri": "https://bit.ly/2RdxH5X"
+            },
+            "color": "#FF0808FF",
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "ทักหาป๋าส่วนตัว",
+              "uri": "https://bit.ly/2RdxH5X"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://middleeast.in-24.com/sport/content/uploads/2021/08/22/191f8b0639.jpg",
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover",
+        "backgroundColor": "#FFFFFF"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "3-1",
+            "weight": "bold",
+            "size": "3xl",
+            "color": "#FF0000FF",
+            "align": "center",
+            "contents": []
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "โรม่า -vs- ฟิออเรนติน่า",
+                "align": "center",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "โรม่า -0.5",
+                "weight": "bold",
+                "color": "#FF0000FF",
+                "align": "center",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "กินเต็ม",
+                "weight": "bold",
+                "size": "3xl",
+                "color": "#2EA521FF",
+                "align": "center",
+                "contents": []
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "flex": 1,
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "สมัครสมาชิก",
+              "uri": "https://bit.ly/3zwUjP8"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "แชร์",
+              "uri": "https://liff.line.me/1656276898-qR8RXZ4x"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+		   }
+		])
+		liff.closewindow()
+	  }
+	  main()
+ 	</script>
+</body>
+</html>
